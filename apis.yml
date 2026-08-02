@@ -1,7 +1,28 @@
 aid: tesorio
 name: Tesorio
-description: Tesorio is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tesorio is an AI-powered financial operations platform that automates accounts
+  receivable, accelerates cash flow, and gives finance teams intelligent tools to
+  manage collections, forecasting, and payment workflows. It connects to ERP, CRM,
+  and payment systems (NetSuite, Sage Intacct, Workday, Zuora, Salesforce, Stripe
+  and more), matches incoming payments to open invoices, drafts AI follow-up
+  emails, extracts payment promises, and predicts pay dates so treasury, AR, and
+  FP&A teams can reduce days sales outstanding. Tesorio exposes a hosted Model
+  Context Protocol (MCP) server so AI tools like Claude, ChatGPT, and Cursor can
+  query live Tesorio data. Founded via Y Combinator.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://www.tesorio.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/tesorio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,54 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Operations
+- Accounts Receivable
+- Cash Flow
+- Collections
+- Treasury
+- FinTech
+- MCP
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/tesorio-domain-security.yml
+- type: Website
+  url: https://www.tesorio.com/
+- type: Documentation
+  url: https://help.tesorio.com/
+- type: Support
+  url: https://help.tesorio.com/
+- type: Blog
+  url: https://www.tesorio.com/blog
+- type: Login
+  url: https://dashboard.tesorio.com/login
+- type: TermsOfService
+  url: https://www.tesorio.com/terms
+- type: PrivacyPolicy
+  url: https://www.tesorio.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/tesorio
+- type: MCPServer
+  name: Tesorio MCP Server
+  url: mcp/tesorio-mcp.yml
+- type: Authentication
+  url: authentication/tesorio-authentication.yml
+- type: TrustCenter
+  url: security/tesorio-trust-center.yml
+- type: Compliance
+  url: https://security.tesorio.com/
+- type: LLMsTxt
+  url: llms/tesorio-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

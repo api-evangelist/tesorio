@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://help.tesorio.com/en/articles/14050733-mcp-server-connect-ai-tools-to-tesorio
+docs: https://help.tesorio.com/en/articles/14050733-mcp-server-connect-ai-tools-to-tesorio
+summary:
+  types: [oauth2]
+  oauth2_flows: [authorizationCode]
+  api_key_in: []
+  notes: >-
+    Tesorio does not publish a general-purpose public REST API with its own auth
+    docs. The documented programmatic surface is the hosted MCP server at
+    https://mcp.tesorio.com/v1/mcp, which authenticates with OAuth 2.1 via a
+    secure browser-based login using existing Tesorio credentials. No static API
+    key is issued; the password is never stored locally by the client.
+schemes:
+  - name: TesorioMCPOAuth
+    type: oauth2
+    scheme: oauth2.1
+    flow: authorizationCode
+    browser_based: true
+    applies_to: https://mcp.tesorio.com/v1/mcp
+    sources: [https://help.tesorio.com/en/articles/14050733-mcp-server-connect-ai-tools-to-tesorio]

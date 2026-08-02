@@ -1,0 +1,30 @@
+# Tesorio
+
+> Tesorio is an AI-powered financial operations platform that automates accounts receivable, accelerates cash flow, and gives finance teams intelligent tools to manage collections, forecasting, and payment workflows. It connects to ERP, CRM, and payment systems, matches incoming payments to open invoices, drafts AI follow-up emails, and predicts pay dates so treasury, AR, and FP&A teams can reduce DSO.
+
+## Programmatic access
+
+- [MCP Server](https://mcp.tesorio.com/v1/mcp): Hosted Model Context Protocol server. Connect Claude, ChatGPT, Cursor, or Claude Code and query live Tesorio data (customers, invoices, payments) in natural language. OAuth 2.1 browser login.
+- [MCP setup guide](https://help.tesorio.com/en/articles/14050733-mcp-server-connect-ai-tools-to-tesorio): Step-by-step instructions for connecting AI tools to Tesorio.
+
+## Product
+
+- [Tesorio](https://www.tesorio.com/): Agentic financial operations platform (AR automation, cash flow, collections, forecasting).
+- [Integrations](https://www.tesorio.com/integrations): Pre-built connectors for NetSuite, Sage Intacct, Workday, Zuora, Salesforce, Stripe and more.
+- [Request a demo](https://www.tesorio.com/demo): Custom-quoted; sales-led onboarding.
+
+## Docs and support
+
+- [Help Center](https://help.tesorio.com/): Product, integration, and setup documentation.
+- [Integrations Overview](https://help.tesorio.com/en/articles/6843619-tesorio-integrations-overview): How Tesorio connects to ERP/CRM/payment systems.
+- [Blog](https://www.tesorio.com/blog): Accounts receivable and cash-flow content.
+
+## Security
+
+- [Security Portal](https://security.tesorio.com/): SafeBase-powered trust center. SOC 1 Type 2 and SOC 2 Type 2.
+
+## Access
+
+- [Login / Dashboard](https://dashboard.tesorio.com/login): Customer application sign-in.
+- [Terms](https://www.tesorio.com/terms)
+- [Privacy](https://www.tesorio.com/privacy)

@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://help.tesorio.com/en/articles/14050733-mcp-server-connect-ai-tools-to-tesorio
+server:
+  name: tesorio
+  transport: http            # remote HTTP MCP endpoint; Cursor is documented with SSE transport
+  url: https://mcp.tesorio.com/v1/mcp
+  auth:
+    type: oauth2.1           # OAuth 2.1, browser-based login with existing Tesorio credentials
+    api_key_required: false
+    notes: >-
+      Authentication is handled through a secure browser-based login. The Tesorio
+      password is never saved locally. AI tools open a browser window to sign in
+      and approve the connector.
+clients:
+  - name: Claude Desktop / Claude Web
+    method: Connectors (remote MCP server)
+  - name: Claude Code
+    method: Native MCP server support
+  - name: ChatGPT
+    method: Settings > Connectors > Create (remote MCP)
+  - name: Cursor
+    method: Settings > MCP > Add new MCP server (SSE)
+# The help center does not publish an explicit tool list; it describes access to
+# live Tesorio data. Capabilities may evolve over time as Tesorio adds tools.
+capabilities:
+  - Query live Tesorio data in natural language via AI Chat
+  - Access customer records
+  - Access invoices
+  - Access payments and related accounts-receivable information
+config_example:
+  mcpServers:
+    tesorio:
+      url: https://mcp.tesorio.com/v1/mcp

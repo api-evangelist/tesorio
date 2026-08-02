@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+probe: false
+url: https://security.tesorio.com/
+platform: SafeBase
+certifications:
+  - SOC 1 Type 2
+  - SOC 2 Type 2
+compliance_notes: >-
+  Tesorio maintains a public Security Portal powered by SafeBase. It publishes
+  SOC 1 Type 2 and SOC 2 Type 2 reports (most recent reporting period covering
+  March 1, 2025 - February 28, 2026, plus prior-year reports). Tesorio states it
+  maintains industry-accepted third-party accreditation of its security controls
+  and program; documents are available under NDA through the portal.
+evidence:
+  - source: https://security.tesorio.com/
+    keywords: [soc 1 type 2, soc 2 type 2, security portal, safebase]
